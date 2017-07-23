@@ -1,0 +1,61 @@
+body {margin: 0;}
+#global-header {border-top: 1px solid #ee7615;}
+.header-wrapper {width: 90%;margin: 0 auto;border-top: 4px solid #076dd3;}
+.beforeimg:before {content: "";border-left: 1px solid #4aa4c9;}
+.logo img {width:15px;height:15px;padding: 10px 0 0 5px;}
+.insurance input {margin-top: 15px;width: 8%;}
+.insurance a {color: #4aa4c9;}
+.renewal p{ margin-top: 30px;line-height: 25px; }
+.insurance a {margin-left: 25px;}
+.submit_btn button {padding: 6px;margin-top: 15px;
+	background-color: #07802c;outline: none;border: none;
+	border-bottom: 1px solid #000000;color: #ffffff;}
+.help {padding: 40px 0;}
+.help a {color: #333333;}
+.footer_ul_li ul li {list-style: none;float: left;display: table;
+    padding-left: 25px;padding-top: 120px;}
+.footer_ul_li ul li a {color: #000000;}
+.footer_ul_li ul li:last-child {float: none;}
+.footer-wrapper {background-color: #d7d9db;min-height: 220px;}
+.footer-wrapper p {margin-left: 65px;}
+.footer_logo img   {float: right;
+    position: relative;
+    right: 35px;
+    top: -135px;}
+.license span {font-family: 'arial';font-weight: bold;}
+.license a {color: #000000;}
+
+@media only screen and (max-width: 1199px) {
+	.insurance input {margin-top: 17px;}
+	.footer_ul_li ul li:first-child {padding-left: 0px;}
+	.footer-wrapper p {margin-left: 40px;}
+}
+
+@media only screen and (max-width: 991px) { 
+.insurance input {margin-top: 25px;}
+.footer_ul_li ul li:first-child {padding-left: 0px;}
+.footer-wrapper p {margin-left: 40px;}
+.footer_logo img {
+     float: none; 
+    position: relative;
+    top: 0;
+    bottom: 0px;
+    left: 290px;
+}
+}
+
+@media only screen and (max-width: 767px) {
+	.insurance input {width: 20%;}
+	.footer_ul_li ul {padding-left: 35px;}
+	.footer_ul_li ul li:first-child {padding-left: 0px;}
+	.footer_logo img {left: 260px;}
+	.footer-wrapper p {margin-left: 35px;}
+}
+
+@media only screen and (max-width: 480px) {
+	.footer_ul_li ul {padding-left: 20px;}
+	.footer_ul_li ul li{padding-left: 5px}
+	.footer-wrapper p {margin-left: 20px;}
+	.footer_logo img {left: 100px;}
+}
+
